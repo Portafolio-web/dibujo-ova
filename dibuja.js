@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_9 = function() {
+(lib.CachedBmp_21 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_8 = function() {
+(lib.CachedBmp_20 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -48,14 +48,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_12 = function() {
+(lib.CachedBmp_24 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_11 = function() {
+(lib.CachedBmp_23 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -76,7 +76,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_10 = function() {
+(lib.CachedBmp_22 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
@@ -105,7 +105,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
-(lib.Símbolo1 = function(mode,startPosition,loop,reversed) {
+(lib.Símbolo2 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -117,18 +117,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_8();
+	this.instance = new lib.CachedBmp_20();
 	this.instance.setTransform(-63.25,-42.75,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_9();
-	this.instance_1.setTransform(-69.5,-39,0.5,0.5);
+	this.instance_1 = new lib.CachedBmp_21();
+	this.instance_1.setTransform(-69.5,-47,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-69.5,-42.7,139,97.7);
+p.nominalBounds = new cjs.Rectangle(-69.5,-47,139,94);
 
 
 (lib.Path_13 = function(mode,startPosition,loop,reversed) {
@@ -175,14 +175,14 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_7();
 	this.instance.setTransform(0,261.65,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_12();
+	this.instance_1 = new lib.CachedBmp_24();
 	this.instance_1.setTransform(835.8,643.25,0.5,0.5);
 
 	this.instance_2 = new lib.Path_13();
 	this.instance_2.setTransform(861,759,1,1,0,0,0,13.5,89.7);
 	this.instance_2.alpha = 0.5313;
 
-	this.instance_3 = new lib.CachedBmp_11();
+	this.instance_3 = new lib.CachedBmp_23();
 	this.instance_3.setTransform(835.3,669.15,0.5,0.5);
 
 	this.instance_4 = new lib.CachedBmp_4();
@@ -191,7 +191,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5 = new lib.CachedBmp_3();
 	this.instance_5.setTransform(566.55,425,0.5,0.5);
 
-	this.instance_6 = new lib.CachedBmp_10();
+	this.instance_6 = new lib.CachedBmp_22();
 	this.instance_6.setTransform(525.75,386.45,0.5,0.5);
 
 	this.instance_7 = new lib.CachedBmp_1();
@@ -236,7 +236,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Al hacer clic en la instancia del símbolo especificada, se ejecuta una función.
 		*/
-		_this.button_1.on('click', function(){
+		_this.boton2.on('click', function(){
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
@@ -248,15 +248,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Capa_1
-	this.button_1 = new lib.Símbolo1();
-	this.button_1.name = "button_1";
-	this.button_1.setTransform(785.6,56);
-	new cjs.ButtonHelper(this.button_1, 0, 1, 1);
+	this.boton2 = new lib.Símbolo2();
+	this.boton2.name = "boton2";
+	this.boton2.setTransform(785.6,56);
+	new cjs.ButtonHelper(this.boton2, 0, 1, 1);
 
 	this.instance = new lib.ClipGroup();
 	this.instance.setTransform(448.45,265.85,1,1,0,0,0,454.1,603.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.button_1}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.boton2}]}).wait(1));
 
 	this._renderFirstFrame();
 
