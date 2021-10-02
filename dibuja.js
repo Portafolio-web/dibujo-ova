@@ -27,64 +27,64 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_830 = function() {
+(lib.CachedBmp_9 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_829 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_828 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_827 = function() {
+(lib.CachedBmp_12 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_826 = function() {
+(lib.CachedBmp_11 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_825 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_824 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_823 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["dibuja_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_822 = function() {
-	this.initialize(img.CachedBmp_822);
+(lib.CachedBmp_1 = function() {
+	this.initialize(img.CachedBmp_1);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1738,2413);// helper functions:
 
@@ -117,10 +117,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_829();
+	this.instance = new lib.CachedBmp_8();
 	this.instance.setTransform(-63.25,-42.75,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_830();
+	this.instance_1 = new lib.CachedBmp_9();
 	this.instance_1.setTransform(-69.5,-39,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
@@ -172,29 +172,29 @@ if (reversed == null) { reversed = false; }
 	mask.setTransform(440.225,576.85);
 
 	// Capa_3
-	this.instance = new lib.CachedBmp_828();
+	this.instance = new lib.CachedBmp_7();
 	this.instance.setTransform(0,261.65,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_827();
+	this.instance_1 = new lib.CachedBmp_12();
 	this.instance_1.setTransform(835.8,643.25,0.5,0.5);
 
 	this.instance_2 = new lib.Path_13();
 	this.instance_2.setTransform(861,759,1,1,0,0,0,13.5,89.7);
 	this.instance_2.alpha = 0.5313;
 
-	this.instance_3 = new lib.CachedBmp_826();
+	this.instance_3 = new lib.CachedBmp_11();
 	this.instance_3.setTransform(835.3,669.15,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_825();
+	this.instance_4 = new lib.CachedBmp_4();
 	this.instance_4.setTransform(783.4,485.6,0.5,0.5);
 
-	this.instance_5 = new lib.CachedBmp_824();
+	this.instance_5 = new lib.CachedBmp_3();
 	this.instance_5.setTransform(566.55,425,0.5,0.5);
 
-	this.instance_6 = new lib.CachedBmp_823();
+	this.instance_6 = new lib.CachedBmp_10();
 	this.instance_6.setTransform(525.75,386.45,0.5,0.5);
 
-	this.instance_7 = new lib.CachedBmp_822();
+	this.instance_7 = new lib.CachedBmp_1();
 	this.instance_7.setTransform(5.65,0,0.5,0.5);
 
 	var maskedShapeInstanceList = [this.instance,this.instance_1,this.instance_2,this.instance_3,this.instance_4,this.instance_5,this.instance_6,this.instance_7];
@@ -240,7 +240,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Carga la URL en una ventana nueva del navegador.
 		*/
-		window.open('http://www.adobe.com', '_blank');
+		window.open('https://portafolio-web.github.io/rompecabezas-ova/index.html', '_self');
 		});
 	}
 
@@ -271,7 +271,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_822.png", id:"CachedBmp_822"},
+		{src:"images/CachedBmp_1.png", id:"CachedBmp_1"},
 		{src:"images/dibuja_atlas_1.png", id:"dibuja_atlas_1"}
 	],
 	preloads: []
